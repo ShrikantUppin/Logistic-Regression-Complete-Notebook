@@ -8,7 +8,7 @@ Below are the logistic regression examples i have solved/prepared..you must see!
 #### Jupyter Notebook code files:
 
 ##### Solved Example...
-<a href="https://github.com/ShrikantUppin/2_logistic-regression-notebook/blob/main/clicked%20on%20Ad%20.ipynb&target="_blank">click</a>
+<a href="https://github.com/ShrikantUppin/2_logistic-regression-notebook/blob/main/clicked%20on%20Ad%20.ipynb/" target="_blank">1. User Clicked on Advertise or not?</a>
 
 #### Model-app Deployment link:
 
