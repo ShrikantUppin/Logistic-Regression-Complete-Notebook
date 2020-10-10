@@ -8,7 +8,7 @@ Below are the logistic regression examples i have solved/prepared..you must see!
 #### Jupyter Notebook code files:
 [![homepage][1]][2]
 
-[1]:  http://commonmark.org/help/images/favicon.png
+[1]:  1. User Clicked on Ad
 [2]:  http://commonmark.org
 
 #### Model-app Deployment link:
