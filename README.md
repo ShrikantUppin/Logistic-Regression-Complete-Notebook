@@ -14,8 +14,8 @@ Below are the logistic regression examples i have solved/prepared..you must see!
 
 ![GitHub](http://github.com)
 
-[![homepage][1]][2]
+[![homepage][1]](http://github.com)
 
 [1]:  http://commonmark.org/help/images/favicon.png
-[2]:  http://github.com
+
 
