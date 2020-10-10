@@ -8,9 +8,9 @@ Below are the logistic regression examples i have solved/prepared..you must see!
 #### Jupyter Notebook code files:
 
 ##### Solved Example...
-[![homepage][1]][2]
-[1]: :link:
-[2]: (https://github.com/ShrikantUppin/2_logistic-regression-notebook/blob/main/clicked%20on%20Ad%20.ipynb&target=_blank)
+:link: [![homepage][1]][2]
+[1]: 
+[2]: https://github.com/ShrikantUppin/2_logistic-regression-notebook/blob/main/clicked%20on%20Ad%20.ipynb&target=_blank
 
 
 #### Model-app Deployment link:
