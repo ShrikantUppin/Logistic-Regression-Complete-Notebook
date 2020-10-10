@@ -12,5 +12,7 @@ Below are the logistic regression examples i have solved/prepared..you must see!
 
 #### Model-app Deployment link:
 
+[GitHub](http://github.com)
+
 
 
