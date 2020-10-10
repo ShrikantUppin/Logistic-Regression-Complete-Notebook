@@ -9,7 +9,8 @@ Below are the logistic regression examples i have solved/prepared..you must see!
 [![homepage][1]][2]
 
 [1]:  http://commonmark.org/help/images/favicon.png
-[2]:  http://commonmark.org "Redirect to homepage
+[2]:  http://commonmark.org
+
 #### Model-app Deployment link:
 
 
