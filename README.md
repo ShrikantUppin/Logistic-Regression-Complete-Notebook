@@ -6,10 +6,8 @@
 Below are the logistic regression examples i have solved/prepared..you must see!!!
 
 #### Jupyter Notebook code files:
-[![homepage][1]][2]
+<a href = "https://github.com/ShrikantUppin/2_logistic-regression-notebook/blob/main/clicked%20on%20Ad%20.ipynb/" target="_blank" > User clicked on Ad </a>
 
-[1]:  1. User Clicked on Ad
-[2]:  http://commonmark.org
 
 #### Model-app Deployment link:
 
