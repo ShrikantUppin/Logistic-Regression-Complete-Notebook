@@ -91,7 +91,7 @@ def final():
         output = inputs(Daily_Time_Spent_on_Site, Age, Area_Income,Daily_Internet_Usage, City, Male, Country)
         if output ==1:
             st.title('User clicked on Advertise..!!!')
-            st.markdown("![Image](https://cdn.lowgif.com/medium/17832d54820b2f21-jokyland-com-yes.gif)")
+            st.markdown("![Image](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook/blob/main/yes.gif?raw=true)")
         else:
             st.success("'{}' User clicked on Advertise".format('NO'))
 
