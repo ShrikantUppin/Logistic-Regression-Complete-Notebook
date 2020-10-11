@@ -13,7 +13,7 @@ Below are the logistic regression examples i have solved/prepared..you must see!
 #### Model-app Deployment link:
 
 
-[1](https://clicked-on-ad-logistic-regress.herokuapp.com&&target="_blank")
+![1][https://clicked-on-ad-logistic-regress.herokuapp.com&&target="_blank"]
 
 
 
