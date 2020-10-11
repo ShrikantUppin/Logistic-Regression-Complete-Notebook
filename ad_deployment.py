@@ -49,8 +49,6 @@ def final():
     '''@ Shrikant Uppin'''
     '''***'''
     
-   
-    
     # st.markdown("![Image](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook/blob/main/ppc.png?raw=true)")
     # st.text('image source: https://www.softechpro.in/img/ppc.png')
     # Daily_Time_Spent_on_Site
@@ -89,7 +87,9 @@ def final():
    
     sample_data = inputs(Daily_Time_Spent_on_Site, Age, Area_Income,Daily_Internet_Usage, City, Male, Country)       
     
-    
+    st.title('## For source code click here..!')
+    if st.button('Source Code'):
+        st.markdown("![source code](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook)")
     
     if st.button('predict'):
         output = inputs(Daily_Time_Spent_on_Site, Age, Area_Income,Daily_Internet_Usage, City, Male, Country)
