@@ -29,18 +29,19 @@ def inputs(Daily_Time_Spent_on_Site, Age, Area_Income,Daily_Internet_Usage, City
     
     new_data=pd.DataFrame({'Daily_Time_Spent_on_Site':Daily_Time_Spent_on_Site,"Age":Age,"Area_Income":Area_Income, "Daily_Internet_Usage":Daily_Internet_Usage,
                            "City":City, "Male":Male, "Country":Country},index=[1])
-    
+   
     new_data[["Daily_Time_Spent_on_Site","Area_Income","Daily_Internet_Usage"]] = new_data[["Daily_Time_Spent_on_Site","Area_Income","Daily_Internet_Usage"]].astype('float')
     
     new_data[["Age","City","Male","Country"]] = new_data[["Age","City","Male","Country"]].astype('int')
     
+
     final_predict = final_model.predict(new_data)
     
+    return final_predict
     
-    return(final_predict)
+    
 
-
-def main():
+def final():
     
     st.title('Logistic Regression')
     '''#### Predicting user has clicked on Advertise or not!'''
@@ -48,6 +49,7 @@ def main():
     '''@ Shrikant Uppin'''
     '''***'''
     
+    st.markdown("![Advertising]('http://localhost:8888/view/Desktop/Git%20Hub%20upload%20renew/Logistic%20Regression%20Complete%20Notebook/Logistic-Regression-Complete-Notebook/advertising.jpg')")
     # Daily_Time_Spent_on_Site
     Daily_Time_Spent_on_Site = st.sidebar.number_input('Daily Time Spent in Minutes', 32, 92)
     
@@ -81,15 +83,16 @@ def main():
     c = city_df.loc[city_df.isin([city]).any(axis=1)].index.values
     d = city_df.Code.loc[c].values
     City = d
+   
+    sample_data = inputs(Daily_Time_Spent_on_Site, Age, Area_Income,Daily_Internet_Usage, City, Male, Country)       
+    
     
     if st.button('predict'):
         output = inputs(Daily_Time_Spent_on_Site, Age, Area_Income,Daily_Internet_Usage, City, Male, Country)
         if output ==1:
-            st.success('{} User clicked on Advertise'.format('YES'))
+            st.success("'{}' User clicked on Advertise".format('YES'))
         else:
-            st.success('{} User clicked on Advertise'.format('NO'))
-    
+            st.success("'{}' User clicked on Advertise".format('NO'))
 
-if __name__=='__main__':
-        main()
+final()
     
