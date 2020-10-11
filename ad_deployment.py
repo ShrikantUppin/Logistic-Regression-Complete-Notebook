@@ -48,8 +48,9 @@ def final():
     '''Dataset : advertising.csv'''
     '''@ Shrikant Uppin'''
     '''***'''
+
+    st.markdown("![Image](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook/blob/main/ppc.png?raw=true)")
     
-    st.markdown("![Advertising]('http://localhost:8888/view/Desktop/Git%20Hub%20upload%20renew/Logistic%20Regression%20Complete%20Notebook/Logistic-Regression-Complete-Notebook/advertising.jpg')")
     # Daily_Time_Spent_on_Site
     Daily_Time_Spent_on_Site = st.sidebar.number_input('Daily Time Spent in Minutes', 32, 92)
     
