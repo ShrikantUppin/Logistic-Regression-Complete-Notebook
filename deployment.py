@@ -112,18 +112,19 @@ def to_be_display():
         output = inputs(Daily_Time_Spent_on_Site, Age, Area_Income,Daily_Internet_Usage, City, Male, Country)
         if output ==1:
             st.write(' ### User clicked on Advertise..!!!')
-            st.markdown("![Image](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook/blob/main/yes.gif?raw=true)")
+            # st.markdown("![Image](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook/blob/main/yes.gif?raw=true)")
         else:
-            st.markdown("![Image](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook/blob/main/no.gif?raw=true)")
+            st.write(' ### User not clicked on Advertise..!!!')
+            # st.markdown("![Image](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook/blob/main/no.gif?raw=true)")
     ''' *** '''
 
-    link = '[Click here for source code..!](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook)'
-    st.markdown(link, unsafe_allow_html=True)
+    # link = '[Click here for source code..!](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook)'
+    # st.markdown(link, unsafe_allow_html=True)
     
     '''***'''
     
-    link = '[Fallow me on GitHub](https://github.com/ShrikantUppin)'
-    st.markdown(link, unsafe_allow_html=True)
+    # link = '[Fallow me on GitHub](https://github.com/ShrikantUppin)'
+    # st.markdown(link, unsafe_allow_html=True)
     
 #------calling to_be_display() function------------------------
 
