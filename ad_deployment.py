@@ -1,3 +1,4 @@
+
 import streamlit as st
 import pickle
 import gzip
@@ -5,19 +6,19 @@ import numpy as np
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
 
-infile1 = open('fianl_model','rb')
+infile1 = open('fianl_model.p','rb')
 final_model = pickle.load(infile1)
 infile1.close()
 
-infile2 = open('country_codes1','rb')
+infile2 = open('country_codes1.p','rb')
 country_codes = pickle.load(infile2)
 infile2.close()
 
-infile3 = open('city_codes1','rb')
+infile3 = open('city_codes1.p','rb')
 city_codes = pickle.load(infile3)
 infile3.close()
 
-infile4 = open('country_city_dict','rb')
+infile4 = open('country_city_dict.p','rb')
 country_city_dict = pickle.load(infile4)
 infile3.close()
 
