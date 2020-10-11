@@ -48,7 +48,6 @@ def final():
     '''Dataset : advertising.csv'''
     '''@ Shrikant Uppin'''
     '''***'''
-
     st.markdown("![Image](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook/blob/main/ppc.png?raw=true)")
     
     # Daily_Time_Spent_on_Site
