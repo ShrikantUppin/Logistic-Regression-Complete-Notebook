@@ -7,7 +7,7 @@
 ***
 ### Model-app Deployment link:
 
-<a href="https://github.com/ShrikantUppin/2_logistic-regression-notebook/blob/main/clicked%20on%20Ad%20.ipynb/" target="_blank">1. User Clicked on Advertise or not?</a>
+<a href="https://clicked-on-ad-logistic-regress.herokuapp.com/" target="_blank">1. User Clicked on Advertise or not?</a>
 ***
 ### Model Deployment Webpage Image:
 
