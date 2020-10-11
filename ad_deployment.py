@@ -44,10 +44,13 @@ def inputs(Daily_Time_Spent_on_Site, Age, Area_Income,Daily_Internet_Usage, City
 def final():
     
     st.title('Logistic Regression')
-    '''#### Predicting user has clicked on Advertise or not!'''
+    '''## Predicting user has clicked on Advertise or not!'''
     '''Dataset : advertising.csv'''
     '''@ Shrikant Uppin'''
     '''***'''
+    
+   
+    
     # st.markdown("![Image](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook/blob/main/ppc.png?raw=true)")
     # st.text('image source: https://www.softechpro.in/img/ppc.png')
     # Daily_Time_Spent_on_Site
@@ -87,13 +90,14 @@ def final():
     sample_data = inputs(Daily_Time_Spent_on_Site, Age, Area_Income,Daily_Internet_Usage, City, Male, Country)       
     
     
+    
     if st.button('predict'):
         output = inputs(Daily_Time_Spent_on_Site, Age, Area_Income,Daily_Internet_Usage, City, Male, Country)
         if output ==1:
             st.title('User clicked on Advertise..!!!')
             st.markdown("![Image](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook/blob/main/yes.gif?raw=true)")
         else:
-            st.success("'{}' User clicked on Advertise".format('NO'))
+            st.markdown("![Image](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook/blob/main/no.gif?raw=true)")
 
 final()
     
