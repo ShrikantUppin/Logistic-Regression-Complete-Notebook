@@ -49,9 +49,6 @@ def final():
     '''@ Shrikant Uppin'''
     '''***'''
     
-    # st.markdown("![Image](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook/blob/main/ppc.png?raw=true)")
-    # st.text('image source: https://www.softechpro.in/img/ppc.png')
-    
     st.sidebar.title('Provide Inputs:')
     # Daily_Time_Spent_on_Site
     Daily_Time_Spent_on_Site = st.sidebar.number_input('Daily Time Spent in Minutes', 32, 92)
