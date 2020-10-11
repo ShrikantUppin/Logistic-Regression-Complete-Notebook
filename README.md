@@ -1,4 +1,4 @@
-# logistic regression notebook
+<font color=Blue> logistic regression notebook </font>
  This is the basic/complete logistic regression notebook. Performed all basic steps. From data loading to model deployment.
  ***
 ### Best logistic regression Examples using python..
