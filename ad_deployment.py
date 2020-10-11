@@ -51,6 +51,8 @@ def final():
     
     # st.markdown("![Image](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook/blob/main/ppc.png?raw=true)")
     # st.text('image source: https://www.softechpro.in/img/ppc.png')
+    
+    st.sidebar.title('Provide Inputs:')
     # Daily_Time_Spent_on_Site
     Daily_Time_Spent_on_Site = st.sidebar.number_input('Daily Time Spent in Minutes', 32, 92)
     
@@ -80,17 +82,13 @@ def final():
     
     #Similar for cities..when selected particular country then automatic cities
     #... in that country will be displayed to select.
+    
     city = st.sidebar.selectbox('Select City', list(country_city_dict.get(search1)))
     c = city_df.loc[city_df.isin([city]).any(axis=1)].index.values
     d = city_df.Code.loc[c].values
     City = d
-   
-    sample_data = inputs(Daily_Time_Spent_on_Site, Age, Area_Income,Daily_Internet_Usage, City, Male, Country)       
-    
-    st.title('## For source code click here..!')
-    if st.button('Source Code'):
-        st.markdown("![source code](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook)")
-    
+    ''' ### Have you provided Inputs..? Lets predict Yes/No..!!!''' 
+    '''   '''
     if st.button('predict'):
         output = inputs(Daily_Time_Spent_on_Site, Age, Area_Income,Daily_Internet_Usage, City, Male, Country)
         if output ==1:
@@ -98,6 +96,13 @@ def final():
             st.markdown("![Image](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook/blob/main/yes.gif?raw=true)")
         else:
             st.markdown("![Image](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook/blob/main/no.gif?raw=true)")
+    ''' *** '''
 
+    link = '[Click here for source code..!](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook)'
+    st.markdown(link, unsafe_allow_html=True)
+    
+    link = '[Fallow me on GitHub](https://github.com/ShrikantUppin)'
+    st.markdown(link, unsafe_allow_html=True)
+    
 final()
     
