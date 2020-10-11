@@ -14,5 +14,7 @@ Below are the logistic regression examples i have solved/prepared..you must see!
 
 ![](https://clicked-on-ad-logistic-regress.herokuapp.com&&target="_blank")
 
-![](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook/blob/main/streamlit.png?raw=true&&target="_blank")
+### Model Deployment Webpage Image:
+
+![](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook/blob/main/streamlit.png?raw=true)
 
