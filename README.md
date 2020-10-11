@@ -7,9 +7,10 @@
 ***
 ### Model-app Deployment link:
 
-<a href="https://clicked-on-ad-logistic-regress.herokuapp.com/" target="_blank">1. User Clicked on Advertise or not?</a>
+<a href="https://clicked-on-ad-logistic-regress.herokuapp.com/" target="_blank">1.https://clicked-on-ad-logistic-regress.herokuapp.com</a>
 ***
 ### Model Deployment Webpage Image:
 
+1. https://clicked-on-ad-logistic-regress.herokuapp.com
 ![](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook/blob/main/streamlit.png?raw=true)
 
