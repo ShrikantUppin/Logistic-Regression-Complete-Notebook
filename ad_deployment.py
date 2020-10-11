@@ -48,30 +48,30 @@ def final():
     '''Dataset : advertising.csv'''
     '''@ Shrikant Uppin'''
     '''***'''
-    st.sidebar.markdown("![Image](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook/blob/main/ppc.png?raw=true)")
-    st.text('image source: https://www.softechpro.in/img/ppc.png')
+    # st.markdown("![Image](https://github.com/ShrikantUppin/Logistic-Regression-Complete-Notebook/blob/main/ppc.png?raw=true)")
+    # st.text('image source: https://www.softechpro.in/img/ppc.png')
     # Daily_Time_Spent_on_Site
-    Daily_Time_Spent_on_Site = st.number_input('Daily Time Spent in Minutes', 32, 92)
+    Daily_Time_Spent_on_Site = st.sidebar.number_input('Daily Time Spent in Minutes', 32, 92)
     
     
     # Area Income
-    Area_Income = st.number_input('Area income in USD',10000,80000)
+    Area_Income = st.sidebar.number_input('Area income in USD',10000,80000)
     
     # Daily_Internet_Usage
-    Daily_Internet_Usage = st.number_input('Daily Internet Usage',100, 300)
+    Daily_Internet_Usage = st.sidebar.number_input('Daily Internet Usage',100, 300)
     
     # Male
-    male = st.selectbox('Select Gender', ['Male','Female'])
+    male = st.sidebar.selectbox('Select Gender', ['Male','Female'])
     if male == 'Male':
         Male = 1
     else:
         Male =0
     
       # Age of the user
-    Age = st.number_input("Age of the user", 19, 60, 40)
+    Age = st.sidebar.number_input("Age of the user", 19, 60, 40)
     
      # getting code value for entered country & reassigning to it Coutry variable in function.
-    country = st.selectbox('Select Country', country_df.Country.unique())
+    country = st.sidebar.selectbox('Select Country', country_df.Country.unique())
     search1 = country
     a = country_df.loc[country_df.isin([search1]).any(axis=1)].index.values
     b = country_df.Code.loc[a].values
@@ -79,7 +79,7 @@ def final():
     
     #Similar for cities..when selected particular country then automatic cities
     #... in that country will be displayed to select.
-    city = st.selectbox('Select City', list(country_city_dict.get(search1)))
+    city = st.sidebar.selectbox('Select City', list(country_city_dict.get(search1)))
     c = city_df.loc[city_df.isin([city]).any(axis=1)].index.values
     d = city_df.Code.loc[c].values
     City = d
@@ -90,7 +90,8 @@ def final():
     if st.button('predict'):
         output = inputs(Daily_Time_Spent_on_Site, Age, Area_Income,Daily_Internet_Usage, City, Male, Country)
         if output ==1:
-            st.success("'{}' User clicked on Advertise".format('YES'))
+            st.title('User clicked on Advertise..!!!')
+            st.markdown("![Image](https://cdn.lowgif.com/medium/17832d54820b2f21-jokyland-com-yes.gif)")
         else:
             st.success("'{}' User clicked on Advertise".format('NO'))
 
